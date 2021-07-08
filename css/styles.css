@@ -77,7 +77,7 @@ body{
     font-size: 250%;
 }
 
-#difficultyDisplay{
+.difficultyDisplay{
     width: 20%;
     border-radius: 40px;
     background-color: lightgrey;
@@ -90,17 +90,21 @@ body{
     height: 35px;
 }
 
-#time{
+.time{
     font-size: 150%;
     margin: 0;
     opacity: 0.9;
 }
 
-#titleFlex{
+.titleFlex{
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
 
+}
+
+#mobileLine{
+    display: none;
 }
 
 #subtitle{
@@ -110,6 +114,7 @@ body{
     margin-right: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
+    line-height: 1.5;
 }
 
 .pdftitle{
@@ -131,6 +136,14 @@ iframe{
     height: 100vh;
     margin-top: 3%;
     overflow-y: hidden;
+}
+
+#titleFlexComp{
+    display: block;
+}
+
+#titleFlexMobile{
+    display: none;
 }
 
 @media only screen and (orientation: portrait){
@@ -240,5 +253,51 @@ iframe{
         padding-left: 5%;
         padding-bottom: 1%;
         
+    }
+
+    #title{
+        padding-top: 10%;
+        margin-bottom: 4%;
+    }
+
+    #titleFlexComp{
+        display: none;
+    }
+
+    #titleFlexMobile{
+        display: block;
+        margin-top: 4%;
+        margin-bottom: 7%;
+    }
+
+    .difficultyDisplay{
+        width: 50%;
+        margin-left: 3%;
+    }
+
+    .time{
+        text-align: center;
+    }
+
+    .titleFlex{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    #mobileLine{
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+      
+    }
+
+    .mobileTime{
+        margin-top: 4%;
+    }
+
+    #subtitle{
+        font-size: 135%;
+        line-height: 1.4;
+        margin-top: 6%;
     }
 }
