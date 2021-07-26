@@ -1,73 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to fold: the AirPoint '21</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id = 'mobileHeader'>
-        <p id = 'menu'>☰</p>
-        <a href="/h" id = 'icon'>WebsiteTitle</a>
-    </div>
 
-    <div id = 'mobileHeaderOpen'>
-        <p id = 'mobileMenu'>Menu</p>
-        <div class = 'headerLinkHolder'>
-            <a href="/about-me" class = 'mobileLinks'>About me</a>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How to fold: the AirPoint '21</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="description" content="How to fold: the AirPoint '21"/>
+    </head>
+    <body>
+        <div id = 'mobileHeader'>
+            <p id = 'menu'>☰</p>
+            <a href="/h" id = 'icon'>WebsiteTitle</a>
         </div>
-        <div class = 'headerLinkHolder'>
-            <a href="/models" class = 'mobileLinks'>Models</a>
+    
+        <div id = 'mobileHeaderOpen'>
+            <p id = 'mobileMenu'>Menu</p>
+            <div class = 'headerLinkHolder'>
+                <a href="/about-me" class = 'mobileLinks'>About me</a>
+            </div>
+            <div class = 'headerLinkHolder'>
+                <a href="/models" class = 'mobileLinks'>Models</a>
+            </div>
+            <div class = 'headerLinkHolder'>
+                <a href="/basic-folds" class = 'mobileLinks'>Basic folds</a>
+            </div>
+            <div class = 'headerLinkHolder'>
+                <a href="/gallery" class = 'mobileLinks'>Gallery</a>
+            </div>
         </div>
-        <div class = 'headerLinkHolder'>
-            <a href="/basic-folds" class = 'mobileLinks'>Basic folds</a>
-        </div>
-        <div class = 'headerLinkHolder'>
-            <a href="/gallery" class = 'mobileLinks'>Gallery</a>
-        </div>
-    </div>
-    <div id = 'content'>
         <div id = 'header'>
             <a href="/h" id = 'icon'>WebsiteTitle</a>
             <div id = 'innerNavigation'>
                 <a href="/about-me" class = 'links'>About me</a>
                 <a href="/models" class = 'links'>Models</a>
-                <a href="/videos" class = 'links'>Videos</a>
-                <a href="/instructions" class = 'links'>Instructions</a>
+                <a href="/basic-folds" class = 'links'>Basic folds</a>
+                <a href="/gallery" class = 'links'>Gallery</a>
             </div>
         </div>
-        <p id = 'title'>How to fold: the <i>AirPoint '21</i></p>
-        <div id = 'titleFlexComp'>
-            <div class = 'titleFlex'>
-                <p class = 'time'>Time to fold: 12-15 min. | Difficulty: </p>
-                <div class = 'difficultyDisplay'>4/10</div>
+        <div id = pictureAndExplanation>
+            <img src="https://pitchk.github.io/h/point.jpg" alt="" id = 'topImg'>
+            <div id = 'explanation'>
+                <p id = 'title'>How to fold: the AirPoint '21</p>
+                <div id = 'titleFlexComp'>
+                    <div class = 'titleFlex'>
+                        <p class = 'time'>Time to fold: 12-15 min. | Difficulty: </p>
+                        <div class = 'difficultyDisplay'>4.5/10</div>
+                    </div>
+                </div>
+            
+                <div id = 'titleFlexMobile'>
+                    <p class = 'time' class = 'mobileTime'>Time to fold: 12-15 min.</p>
+                    <div class = 'titleFlex'>
+                        <p class = 'time'>Difficulty: </p>
+                        <div class = 'difficultyDisplay'>4.5/10</div>
+                    </div>
+                </div>
+                <hr id= 'mobileLine'>
+                <p id = 'subtitle'>This model is the 4th original model that I came up with. Featuring a distinguishable cockpit and a sharp point in the front, the AirPoint '21 truly deserves its name. If this model was made in real life, its length would be no more than 20 feet, with a cockpit that can only seat two people. This looks like a vehicle that would be flown around just for fun in the future!</a></p>
+                <div id = 'explanationLinkHolder'>
+                    <p class = 'explanationLinks'>Instructions</p>
+                    <p class = 'explanationLinks'>Gallery</p>
+                    <p class = 'explanationLinks'>Similar models</p>
+                </div>
             </div>
         </div>
-        
-        <div id = 'titleFlexMobile'>
-            <p class = 'time' class = 'mobileTime'>Time to fold: 12-15 min.</p>
-            <div class = 'titleFlex'>
-                <p class = 'time'>Difficulty: </p>
-                <div class = 'difficultyDisplay'>4/10</div>
+            
+        <div id = 'instructionSection'>
+            <div id = 'darkmode'>
+                <p id = 'darkmodeText'>Dark mode for instructions: </p>
+                <div id = 'switchOuter'>
+                    <div id = 'switchInner'></div>
+                </div>
+            </div>
+            <p id = 'instructions'>Instructions</p>
+            <i>
+            <p class = 'pdftitle'>Steps with an asterisk (*) are challenging and therefore have videos explaining how to do that step. The video links are available below the steps.</p>
+            <img src="fv4.svg" alt="" id = 'instructionImage'>
+            <p class = 'pdftitle'>Although you may download these instructions as a PDF using <a href="fv4.pdf" class = 'pdfTitleLink' download>this link</a>, printing it is not recommended. See the terms of usage <a href="/usage" target = '_blank' class = 'pdfTitleLink'>here.</a></i>
+        </div>
+            
+        <div id = 'gallerySection'>
+            <p id = 'gallery'>Gallery</p>
+            <div class = 'images'>
+                <div class = 'captionHolder'>
+                    <img src="https://3358nc4e1je93h11tu493nryr3i-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/image-coming-soon.jpg" alt="" class = 'galleryImg'>
+                    <p class = 'imageCaption'>Top view.</p>
+                </div>
+                <div class = 'captionHolder'>
+                    <img src="https://3358nc4e1je93h11tu493nryr3i-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/image-coming-soon.jpg" alt="" class = 'galleryImg'>
+                    <p class = 'imageCaption'>Two shrimp, side by side.</p>
+                </div>
             </div>
         </div>
-        <hr id = 'mobileLine'>
-        <p id = 'subtitle'>This model is the 4th original model that I came up with. Featuring a distinguishable cockpit and a sharp point in the front, the <i>AirPoint '21</i> truly deserves its name. If this model was made in real life, its length would be no more than 20 feet, with a cockpit that can only seat two people. This looks like a vehicle that would be flown around just for fun in the future!</p>
-        <hr class = 'line'>
-        <i>
+            
+            <hr class = 'line'>
+            <div id = 'similarModels'>Similar Models</div>
+            <div id = 'allModels'></div>
+            <div id = 'explore'>
+                <a href="/models" id = 'modelLink'>Explore all models</a>
+            </div>
+            <footer id = 'bottom'>
+                <div id = 'bottomIconHolder'>
+                    <a href="/h" id = 'bottomIcon'>WebsiteTitle</a>
+                </div>
+                
+                <p id = 'bottomCaption'>This website is updated every time I come up with a new model. Stay tuned and visit back frequently to check for any new updates. All new updates are logged on this <a href="/change-log" class = 'bottomlink'>change log.</a></p>
 
-                <p class = 'pdftitle'>> The PDF below contains the instructions and diagrams to this model. Although you may download this PDF, printing it is not recommended. See the terms of usage <a href="/usage">here.</a> 
-
-                <p class = 'pdftitle'>> Steps with an asterisk (*) are challenging and therefore have videos explaining how to do that step. The video links are available under the PDF.</p> 
-
-
-        </i>
-        <iframe src="https://pitchk.github.io/h/Future_Vehicle_4_test_for_html_final.pdf" frameborder="0"></iframe>
-        
-    </div>
-</body>
-<script src="js/ap.js"></script>
-</html>
+                <p id = 'bottomCaption2'>Any comments, feedback, or requests? Please email me at pitchk808@gmail.com.</p>
+                <div id = 'bottomLinkHolder'>
+                    <div class = 'indivBottomLinkHolder'><a href="/about-me#website" class = 'bottomlink'>About this website</a></div>
+                    <div class = 'indivBottomLinkHolder'><a href="/models" class = 'bottomlink'>Models</a></div>
+                    <div class = 'indivBottomLinkHolder'><a href="/gallery" class = 'bottomlink'>Gallery</a></div>
+                    <div class = 'indivBottomLinkHolder'><a href="/usage" class = 'bottomlink'>Terms of use</a></div>
+                    
+                </div>
+                <div id = 'credit'><span id = 'code'>&lt;/&gt;</span> by <a href="/about-me">Micaiah Cape</a></div>
+            </footer>
+    
+    </body>
+    <script src="js/ap.js"></script>
+    </html>
